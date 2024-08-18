@@ -1,0 +1,1 @@
+const socket = io(); //this will open first when we open our browser
