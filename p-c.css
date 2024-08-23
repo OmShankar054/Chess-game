@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.584);
+    padding: 50px 60px;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+#nav h3{
+    font-size:25px;
+    font-weight: 600;
+}
+#nav h2{
+    font-size:25px;
+    font-weight: 600;
+}
+#nav h4{
+    font-size:25px;
+    font-weight: 600;
+}
+#content {
+    padding-top: 60px;
+    padding: 40px 65px;
+    background-color: rgba(26, 79, 125, 0.779);
+}
+#content h3{
+    font-size: 40px;
+    font-weight: 600px;
+}
+#content h1{
+    margin-top: 40px;
+     font-size: 140px;
+     line-height: 160px;
+     font-weight: 500;
+     letter-spacing: -10px; 
+     word-spacing: 10px;    
+}
+#case{
+    padding: 40px 65px;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(171, 138, 94);
+}
+#case h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+#case h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    width: 160px;
+    background-color: black;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 65px;
+    gap: 70px;
+    background-color: rgb(189, 132, 243);
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    height: 650px;
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    background-size: cover;
+    background-position:center;
+}
+#img1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXyaMQIsfKYasvXeeH4dvUrrtQjiTcCQh7l0IfO7qq45rR_Wt9);
+}
+#img2{
+    background-image: url( https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS-jOdGqA58v_PqIQfcJZfcylhiadBxnTEDm10Y3a60lmZ-_H1f);
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: center;
+}
+.bottom i{
+    padding: 15px 30px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: 800;
+}
+.bottom i:hover{
+    background-color: rgb(239, 49, 87);
+    color: white;
+}
+.bottom h2{
+    font-size: 40px ;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.bottom h4{
+    font-size: 24px;
+    color: #352982d4;
+    font-weight: 500;
+}

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height:100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+#nav{
+    height: 100px;
+    width:100%;
+    background-color: rgb(204, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 30px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h2{
+    font-size: 16px;
+    border: 2px solid #000;
+    font-weight: 500;
+    padding: 3px 7px;
+    border-radius: 50px;
+
+}
+#nav i{
+    font-size: 16px;
+    border: 2px solid #000;
+    font-weight: 500;
+    padding: 3px 7px;
+    border-radius: 50px;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid  black;
+    font-weight: 600;
+    font-size: 17px;
+}
+#btn2{
+    background-color:orangered; 
+    border: none;
+}
+
+#main>h1{
+    font-size: 160px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-24deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-18deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-13deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-5deg);
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 16px;
+}
+#btm-right1{
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+    font-size: 16px;
+}
+#btm-right2{
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 30px;
+}
